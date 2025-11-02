@@ -1,59 +1,39 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+# MATLAB
+*.asv
+*.m~
+*.mex*
+*.mat
+*.slx.autosave
 
-# Folder config file
-Desktop.ini
+# Compiled MEX files
+anigauss.mex*
+mexCountWordsIndex.mex*
+mexFelzenSegmentIndex.mex*
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+# Output files
+resultImage.jpg
+*.txt
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
-
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
+# OS generated files
 .DS_Store
-.AppleDouble
-.LSOverride
-
-# Icon must end with two \r
-Icon
-
-# Thumbnails
+.DS_Store?
 ._*
-
-# Files that might appear on external disk
 .Spotlight-V100
 .Trashes
+ehthumbs.db
+Thumbs.db
 
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
 
-#zip files
-*.zip
+# Output directories
+examples/output/
+output/
 
-#matlab mex files
-*.mexw32
-
-#matlab tmp files
-*.asv
-
-
-*.jpg
-*.xml
-*.m~
-*.mexglx
-*.~*
+# Temporary files
+temp/
+tmp/
